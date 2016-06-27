@@ -845,43 +845,43 @@ do
         ;;
       2)
         configure_locale
-        checklist[10]=1
+        checklist[2]=1
         ;;
       3)
         select_editor
-        checklist[2]=1
+        checklist[3]=1
         ;;
       4)
         configure_mirrorlist
-        checklist[3]=1
+        checklist[4]=1
         ;;
       5)
         umount_partitions
         create_partition_scheme
         format_partitions
-        checklist[4]=1
+        checklist[5]=1
         ;;
       6)
         install_base_system
         configure_keymap
         setup_alt_dns
-        checklist[5]=1
+        checklist[6]=1
         ;;
       7)
         configure_fstab
-        checklist[6]=1
+        checklist[7]=1
         ;;
       8)
         configure_hostname
-        checklist[7]=1
+        checklist[8]=1
         ;;
       9)
         configure_timezone
-        checklist[8]=1
+        checklist[9]=1
         ;;
       10)
         configure_hardwareclock
-        checklist[9]=1
+        checklist[10]=1
         ;;
       11)
         configure_mkinitcpio
